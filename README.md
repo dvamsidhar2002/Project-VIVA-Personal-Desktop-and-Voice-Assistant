@@ -6,7 +6,7 @@ This is a personal desktop assistant which will do few tasks for you. It is curr
 * Ask time and day
 * Ask to open google,brave,youtube,stack overflow
 * take screenshot of current screen
-* many more features coming soon
+* record your voice
 
 # For complaints or complements 
 # Do email me - vamsidhard2002@gmail.com
