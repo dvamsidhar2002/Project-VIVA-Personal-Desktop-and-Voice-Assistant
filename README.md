@@ -8,5 +8,5 @@ This is a personal desktop assistant which will do few tasks for you. It is curr
 * take screenshot of current screen
 * record your voice
 
-## For complaints or complements 
-# Do email me - vamsidhard2002@gmail.com
+### For complaints or complements 
+### Do email me - vamsidhard2002@gmail.com
