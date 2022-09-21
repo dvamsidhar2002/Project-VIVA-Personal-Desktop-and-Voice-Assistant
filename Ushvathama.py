@@ -53,7 +53,10 @@ def tellDay():
         day_of_the_week = Day_dict[day]
         print(day_of_the_week)
         speak("The day is " + day_of_the_week)
- 
+
+def ScreenShot():
+    sc=pyautogui.screenshot()
+    sc.save('D:\Project Ushwathama\sampless.png') #enter the location/path of destination where the screenshot should be saved.
  
 def tellTime():
      
@@ -131,6 +134,10 @@ if __name__ == "__main__":
         elif 'record my voice' in query:
             speak('Recording voice')
             voice_recorder()
+            
+         elif 'take screenshot' in query:
+            speak('Taking Screenshot')
+            ScreenShot()
         
         elif 'bye' in query:
             speak('Okay! See you later.')
