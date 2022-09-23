@@ -8,6 +8,9 @@ import pyttsx3
 import os
 import sounddevice
 from scipy.io.wavfile import write
+import cv2
+import time
+import imutils
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
