@@ -39,6 +39,19 @@ def voice_recorder():
     write("Output.wav",fs,record_voice)
     print("Finished....\nPlease Check it......")
 
+def takePicture():
+    cap = cv2.VideoCapture(0)
+    ret, frame = cap.read()
+    (grabbed, frame) = cap.read()
+    showimg = frame
+    cv2.imshow('img1', showimg)  # display the captured image
+    cv2.waitKey(1)
+    time.sleep(0.3) # Wait 300 miliseconds
+    image = 'D:\Project Ushwathama\photo.png'
+    cv2.imwrite(image, frame)
+    cap.release()
+    return image
+
 def tellDay():
      
     # This function is for telling the
@@ -142,6 +155,10 @@ if __name__ == "__main__":
             speak('Taking Screenshot')
             ScreenShot()
         
+         elif 'take photo' in query:
+            speak('Taking photo! Look into the camera and smile')
+            takePicture()
+           
         elif 'bye' in query:
             speak('Okay! See you later.')
             exit()
