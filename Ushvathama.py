@@ -92,7 +92,7 @@ def takeCommand():
     with sr.Microphone() as source:
         print("Listening...")
         r.pause_threshold = 1
-        r.energy_threshold = 700
+        r.energy_threshold = 200
         audio = r.listen(source)
     
     try:
