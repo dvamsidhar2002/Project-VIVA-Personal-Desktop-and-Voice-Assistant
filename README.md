@@ -10,6 +10,10 @@ This is a personal desktop assistant which will do few tasks for you. It is curr
 
 The current code is very rigid and has fixed to perform particular task. Looking forward to improve the effectiveness of the assistant and automate it.
 
+## What are the requirements of workspace to run the program 
+
+> Installing libraries
+
 ## Future work to be done : 
 * Automating USHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
 * Making the code understandable to any individual, make it robust in nature.
