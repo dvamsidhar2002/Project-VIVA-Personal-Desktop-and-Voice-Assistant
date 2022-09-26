@@ -12,7 +12,11 @@ The current code is very rigid and has fixed to perform particular task. Looking
 
 ## What are the requirements of workspace to run the program 
 
-> Installing libraries
+<p>
+    <h3>Installing libraries</h3>
+    <br>* <i>pip install speechRecognition</i> - To give commands to <strong> USHVATHAMA </strong> and perform tasks.</br>
+    <br>* <i>pip install opencv-python</i> - This module is used to access camera for capturing images.</br>
+</p>
 
 ## Future work to be done : 
 * Automating USHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
