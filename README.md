@@ -21,7 +21,7 @@ The current code is very rigid and has fixed to perform particular task. Looking
 
 ## Some extra information about you can explore and experiment with.
 <p>In <strong>takeCommand()</strong> function <i>r.pause_threshold</i> is parameter to increase the time to wait for assistant so that if u take a small pause wantedly or unwantedly, the assistant should not stop listening and execute incomplete tasks. In short, the more the pause_threshold, the more time you can pause after a command is given.</p>
-<p>Also, along with it another parameter is also used which is called energy_threshold, which decreases the sensitivity of its input with increase in its value. The more the energy_threshold the more you need to shout for giving the commands to USHVATHAMA.</p>
+<p>Also, along with it another parameter is also used which is called <i>r.energy_threshold</i>, which decreases the sensitivity of its input with increase in its value. The more the energy_threshold the more you need to shout for giving the commands to USHVATHAMA.</p>
 
 ## Future work to be done : 
 * Automating USHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
