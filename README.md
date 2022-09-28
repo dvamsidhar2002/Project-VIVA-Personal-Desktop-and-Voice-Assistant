@@ -1,7 +1,7 @@
 # Project-Ashvathama---Personal-Desktop-and-Voice-Assistant
 This is a personal desktop assistant which will do few tasks for you. It is currently in <b>LEVEL - 1</b> development process where the tasks which can be performed are limited and need manual coding for it instead of any automation.
 
-### What can you do with USHVATHAMA : 
+### What can you do with ASHVATHAMA : 
 
 * Ask time and day
 * Ask to open google,brave,youtube,stack overflow
@@ -14,7 +14,7 @@ The current code is very rigid and has fixed to perform particular task. Looking
 
 <p>
     <h3>Installing libraries</h3>
-    <br><i>pip install speechRecognition</i> - To give commands to <strong> USHVATHAMA </strong> and perform tasks.</br>
+    <br><i>pip install speechRecognition</i> - To give commands to <strong> ASHVATHAMA </strong> and perform tasks.</br>
     <br><i>pip install opencv-python</i> - This module is used to access camera for capturing images.</br>
     <br><i>pip install PyAudio</i> - This library helps USHVATHAMA to speak ask which task to perform from the user.</br> 
 </p>
@@ -24,7 +24,7 @@ The current code is very rigid and has fixed to perform particular task. Looking
 <p>Also, along with it another parameter is also used which is called <i>r.energy_threshold</i>, which decreases the sensitivity of its input with increase in its value. The more the energy_threshold the more you need to shout for giving the commands to USHVATHAMA.</p>
 
 ## Future work to be done : 
-* Automating USHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
+* Automating ASHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
 * Making the code understandable to any individual, make it robust in nature.
 
 ### For complaints or compliments 
