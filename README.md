@@ -1,4 +1,4 @@
-# Project-Ushvathama---Personal-Desktop-and-Voice-Assistant
+# Project-Ashvathama---Personal-Desktop-and-Voice-Assistant
 This is a personal desktop assistant which will do few tasks for you. It is currently in <b>LEVEL - 1</b> development process where the tasks which can be performed are limited and need manual coding for it instead of any automation.
 
 ### What can you do with USHVATHAMA : 
