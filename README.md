@@ -9,6 +9,7 @@ Estimated time to finish the project is 1 year.
 * take screenshot of current screen
 * record your voice
 * Open calender and look into the calender of any year you desire
+* Generate a new password for you
 
 The current code is very rigid and has fixed to perform particular task. Looking forward to improve the effectiveness of the assistant and automate it.
 
