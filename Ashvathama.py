@@ -211,7 +211,11 @@ if __name__ == "__main__":
         elif 'open calendar' in query:
             speak('Opening Calender')
             Calendar()
-            
+        
+        elif 'generate a new password for me' in query:
+            speak('Generating a new password')
+            generate_Password()
+
         elif 'bye' in query:
             speak('Bye Bye! See you later.')
             exit()
