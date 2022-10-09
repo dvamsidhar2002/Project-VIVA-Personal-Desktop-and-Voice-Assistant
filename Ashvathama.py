@@ -148,6 +148,19 @@ def Calendar():
     Exit.grid(row=9, column=1)
     new.mainloop()
 
+def generate_Password():
+    lower = "abcdefghijklmnopqrstuvwxyz"
+    upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    numbers = "0123456789"
+    symbols = "!@#$%^&*()_-[]{}:;<>,.?"
+    all = lower + upper + numbers + symbols
+    speak("Please enter the length of the password according to your preferences")
+    length = int(input("Please enter the length of the password according to your preferences : "))
+    password = "".join(random.sample(all,length))
+    speak("The password generated is on your screen")
+    print("The password generated is : ",password)
+    print()
+    
 # Program starts here
 if __name__ == "__main__":
     wishMe()
