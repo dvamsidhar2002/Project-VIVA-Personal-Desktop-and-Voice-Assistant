@@ -17,9 +17,24 @@ The current code is very rigid and has fixed to perform particular task. Looking
 
 <p>
     <h3>Installing libraries</h3>
-    <br><i>pip install speechRecognition</i> - To give commands to <strong> ASHVATHAMA </strong> and perform tasks.</br>
-    <br><i>pip install opencv-python</i> - This module is used to access camera for capturing images.</br>
-    <br><i>pip install PyAudio</i> - This library helps USHVATHAMA to speak ask which task to perform from the user.</br> 
+- To give commands to <strong> ASHVATHAMA </strong> and perform tasks.</br>
+    
+```
+pip install speechRecognition 
+```
+
+- This module is used to access camera for capturing images.</br>
+
+```
+pip install opencv-python 
+```
+
+- This library helps USHVATHAMA to speak ask which task to perform from the user.</br> 
+
+```
+pip install PyAudio 
+```
+
 </p>
 
 ## Some extra information about Ashvathama you can explore and experiment with.
