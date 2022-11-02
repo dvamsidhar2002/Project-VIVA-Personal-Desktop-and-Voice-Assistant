@@ -29,7 +29,7 @@ pip install speechRecognition
 pip install opencv-python 
 ```
 
-- This library helps USHVATHAMA to speak ask which task to perform from the user.</br> 
+- This library helps <strong>ASHVATHAMA</strong> to speak ask which task to perform from the user.</br> 
 
 ```
 pip install PyAudio 
