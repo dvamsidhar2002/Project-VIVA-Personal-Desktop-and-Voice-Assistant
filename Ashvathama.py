@@ -228,6 +228,7 @@ if __name__ == "__main__":
         elif 'generate a new password for me' in query:
             speak('Generating a new password')
             generate_Password()
+            speak('Here\'s a new password for you')
 
         elif 'bye' in query:
             speak('Bye Bye! See you later.')
