@@ -35,6 +35,12 @@ pip install opencv-python
 pip install PyAudio 
 ```
 
+- To make <strong>ASHWATHAMA</strong> take screenshots and save easily
+
+```
+pip install Pillow
+```
+
 </p>
 
 ## Some extra information about Ashvathama you can explore and experiment with.
