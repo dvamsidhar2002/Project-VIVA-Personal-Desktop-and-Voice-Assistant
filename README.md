@@ -28,7 +28,7 @@ pip install speechRecognition
 pip install opencv-python 
 ```
 
-- This library helps <strong>ASHVATHAMA</strong> to speak ask which task to perform from the user.</br> 
+- This library helps <strong>VIVA</strong> to speak ask which task to perform from the user.</br> 
 
 ```
 pip install PyAudio 
@@ -47,7 +47,7 @@ pip install Pillow
 <p>Also, along with it another parameter is also used which is called <i>r.energy_threshold</i>, which decreases the sensitivity of its input with increase in its value. The more the energy_threshold the more you need to shout for giving the commands to USHVATHAMA.</p>
 
 ## Future work to be done : 
-* Automating ASHVATHAMA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
+* Automating VIVA as much as possible, training a model and integrating it with the code so that the rigidness in the commands can be eliminated and the assistant can respond to the commands accordingly even if phrased differently.
 * Making the code understandable to any individual, make it robust in nature.
 
 ### For complaints or compliments 
