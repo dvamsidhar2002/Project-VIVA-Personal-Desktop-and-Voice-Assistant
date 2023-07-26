@@ -1,7 +1,7 @@
-# Project-Ashvathama---Personal-Desktop-Assistant
+# Project-VIVA---Personal-Desktop-Assistant
 This is a personal desktop assistant which will do few tasks for you. It is currently in <b>LEVEL - 1</b> development process where the tasks which can be performed are limited and need manual coding for it instead of any automation.
 
-### What can you do with ASHVATHAMA : 
+### What can you do with VIVA : 
 
 * Ask time and day
 * Ask to open google,brave,youtube,stack overflow
@@ -16,7 +16,7 @@ The current code is very rigid and has fixed to perform particular task. Looking
 
 <p>
     <h3>Installing libraries</h3>
-- To give commands to <strong> ASHVATHAMA </strong> and perform tasks.</br>
+- To give commands to <strong> VIVA </strong> and perform tasks.</br>
     
 ```
 pip install speechRecognition 
@@ -42,7 +42,7 @@ pip install Pillow
 
 </p>
 
-## Some extra information about Ashvathama you can explore and experiment with.
+## Some extra information about VIVA you can explore and experiment with.
 <p>In <strong>takeCommand()</strong> function <i>r.pause_threshold</i> is parameter to increase the time to wait for assistant so that if u take a small pause wantedly or unwantedly, the assistant should not stop listening and execute incomplete tasks. In short, the more the pause_threshold, the more time you can pause after a command is given.</p>
 <p>Also, along with it another parameter is also used which is called <i>r.energy_threshold</i>, which decreases the sensitivity of its input with increase in its value. The more the energy_threshold the more you need to shout for giving the commands to USHVATHAMA.</p>
 
