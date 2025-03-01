@@ -51,7 +51,7 @@ pip install Pillow
 * Making the code understandable to any individual, make it robust in nature.
 
 ### For complaints or compliments 
-### Do email me - vamsidhard2002@gmail.com
+### Do email me - dvamsidhar2002@gmail.com
 
 <h1 align="center">Also you can find me on :-</h1>
 <p align="center">
